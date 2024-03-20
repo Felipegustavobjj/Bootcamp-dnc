@@ -246,24 +246,34 @@
 
                 }
 
-                .linha2{
-                    color: white;
-                    font-weight: 600;
-                    font-size: 25px;
-                    font-family: var(--fonte-padrao);
-                    margin: 150px 0px 0px 0px;
-                    text-align: center;
-                    justify-content: space-around;
-                    height: 80px;
+                footer .linha2{
+                    height: 35px;
+                    display: flex;
+                    justify-content: center;          
+                    margin: 100px 0px 0px 0px;
+                    padding: 10px;
+                    
+                   
                 }
 
-                .linha2 a{
+                footer .linha2 a{
+                    font-family: var(--fonte-padrao);
+                    font-weight: 600;
+                    font-size: 20px;
                     color: white;
                     text-decoration: none;
                     cursor: pointer;
+                    padding: 5px;
+                   
                     
                 }
 
-                .linha2 a:hover{
+                footer .linha2 a:first-child{
+                    border-right: 3px solid white;
+                   
+
+                }
+
+                footer .linha2 a:hover{
                     color: var(--cinza-hover);
                 }
