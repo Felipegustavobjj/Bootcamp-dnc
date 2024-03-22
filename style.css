@@ -279,6 +279,8 @@
                 }
 
                 @media only screen and (max-width: 600px){
+
+                    /* Menu */
                     
                     #principal{
                         display: flex;
@@ -305,6 +307,8 @@
 
                     }
 
+                    /* Section */
+
                     section h1{
                         font-size: 38px;
                     }
@@ -325,5 +329,18 @@
 
                     }
 
-                    
+                    /* Footer */
+
+                    footer .linha1{
+                        flex-direction: column;
+
+                    }
+
+                    footer .endereço{
+                        width: 95%;
+                        margin-bottom: 20px;
+                    }
+
+
+
                 }
